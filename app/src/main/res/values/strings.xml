@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PaxfulJokes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="char_jokes">%s Jokes</string>
+    <string name="joke_list">Joke List</string>
+    <string name="my_list">My Jokes</string>
+    <string name="settings">Settings</string>
+    <string name="joke_list_share">Share</string>
+    <string name="joke_list_like">Like</string>
+    <string name="settings_character_firstname">Character firstname</string>
+    <string name="settings_character_lastname">Character lastname</string>
+    <string name="settings_offline_mode">Offline mode</string>
+    <string name="toast_share">No app to share</string>
+    <string name="toast_added">Joke added to favorite</string>
+    <string name="already_added">Joke already added</string>
+    <string name="my_joke_delete">Delete</string>
+    <string name="alert_title">Add new joke</string>
+    <string name="alert_save">save</string>
+    <string name="alert_cancel">cancel</string>
+</resources>

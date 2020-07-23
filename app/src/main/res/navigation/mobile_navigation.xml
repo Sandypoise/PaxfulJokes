@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.andersenlab.paxfuljokes.ui.jokelist.JokeListFragment"
+        android:label="@string/char_jokes"
+        tools:layout="@layout/fragment_joke_list"/>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.andersenlab.paxfuljokes.ui.myjokes.MyJokesFragment"
+        android:label="@string/my_list"
+        tools:layout="@layout/fragment_my_jokes" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.andersenlab.paxfuljokes.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
